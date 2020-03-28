@@ -1,0 +1,6 @@
+<div class="modules">
+  <ul class="list-group" *ngFor="let module of modules">
+    <li class="list-group-item module-row" [class]="{'selected': moduleId === module._id}">
+    <a class="mod-link" routerLink="/course/{{courseId}}/module/{{module._id}}">{{module.title}}</a></li>
+  </ul>
+</div>

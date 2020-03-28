@@ -1,0 +1,22 @@
+.selected {
+  background-color: white !important;
+}
+
+.selected a {
+  color: black !important;
+}
+
+.module-row {
+  background-color: black;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.mod-link {
+  color: white;
+  font-weight: bold;
+}
+
+.modules {
+  margin-top: 20px;
+}
