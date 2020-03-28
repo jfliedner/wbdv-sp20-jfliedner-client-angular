@@ -1,0 +1,29 @@
+.cl-nav {
+  background-color: black !important;
+  margin-left: -200px;
+  margin-right: -200px;
+}
+
+.title-nav {
+  color: white;
+  margin-left: 380px;
+}
+
+.course-list {
+  margin-top: 20px;
+}
+
+.course-row {
+  width: 1200px;
+  background-color: black;
+
+}
+
+.link {
+  color: white;
+}
+
+.home-btn {
+  margin-left: 20px;
+}
+
