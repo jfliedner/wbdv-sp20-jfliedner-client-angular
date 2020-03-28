@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "wbdv-sp20-jfliedner-client-angular"
+    }
+  },
+  "defaultProject": "wbdv-sp20-jfliedner-client-angular",
+  "cli": {
+    "analytics": "df77b467-e9d6-427c-9900-299550f00272"
+  }
 }
