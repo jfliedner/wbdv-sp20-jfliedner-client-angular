@@ -1,0 +1,13 @@
+.home-title {
+  margin-left: 420px;
+  margin-top: 20px;
+  color: white;
+}
+
+.view-link, .view-link.active:hover, .view-link:focus {
+  margin-left: 250px;
+  margin-top: 50px;
+  color: black;
+  font-size: 80px;
+
+}
