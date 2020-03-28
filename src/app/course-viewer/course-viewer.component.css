@@ -1,0 +1,14 @@
+.cl-nav {
+  background-color: black !important;
+  margin-left: -200px;
+  margin-right: -200px;
+}
+
+.title-nav {
+  color: white;
+  margin-left: 310px;
+}
+
+.home-btn {
+  margin-left: 20px;
+}
