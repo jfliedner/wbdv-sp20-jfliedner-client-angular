@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
+import {CourseServiceClient} from '../services/CourseServiceClient';
 
 @Component({
   selector: 'app-lesson-tabs',
@@ -8,7 +9,7 @@ import {ActivatedRoute} from '@angular/router';
 })
 export class LessonTabsComponent implements OnInit {
 
-  constructor(private route: ActivatedRoute) { }
+  constructor(private route: ActivatedRoute, private service: CourseServiceClient ) { }
 
   moduleId = ''
   courseId = ''
@@ -19,8 +20,7 @@ export class LessonTabsComponent implements OnInit {
       this.moduleId = params.mid;
       this.lessonId = params.lid;
       this.courseId = params.cid;
-      fetch(`http://wbdv-generic-server.herokuapp.com/api/001234485/modules/${this.moduleId}/lessons`)
-        .then(response => response.json())
+      this.service.findLessonsForModule(this.moduleId)
         .then(lessons => this.lessons = lessons);
     });
   }
