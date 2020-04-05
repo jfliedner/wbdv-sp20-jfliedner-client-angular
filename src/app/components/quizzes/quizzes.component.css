@@ -1,0 +1,26 @@
+.cl-nav {
+  background-color: black !important;
+  margin-left: -200px;
+  margin-right: -200px;
+}
+
+.title-nav {
+  color: white;
+  margin-left: 370px;
+}
+
+.home-btn {
+  margin-left: 20px;
+}
+
+.quiz-item {
+  margin-top: 10px;
+  height: 60px;
+  background-color: black;
+  border-radius: 6px;
+}
+
+.q-title {
+  color: white;
+  font-weight: bold;
+}

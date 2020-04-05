@@ -1,0 +1,19 @@
+<nav class="navbar navbar-dark navbar-top bg-dark cl-nav">
+  <div class="col-sm-1 home-btn">
+    <a href="/table/courses"><input type="image" src="../../../assets/images/back.svg"/></a>
+  </div>
+  <div class="col-sm-10">
+    <h3 class="title-nav">Quizzes</h3>
+  </div>
+</nav>
+<ul class="list-group">
+  <li *ngFor="let quiz of quizzes" class="list-group-item quiz-item">
+    <a class="q-title" routerLink="/courses/{{courseId}}/quizzes/{{quiz._id}}">
+      {{quiz.title}}
+    </a>
+    <a class="btn btn-outline-primary float-right"
+       routerLink="/courses/{{courseId}}/quizzes/{{quiz._id}}">
+      Start
+    </a>
+  </li>
+</ul>
