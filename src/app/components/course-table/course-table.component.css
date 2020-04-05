@@ -30,3 +30,8 @@
 .c-name {
   font-weight: bold;
 }
+
+.q-name {
+  font-weight: bold;
+  float: right;
+}

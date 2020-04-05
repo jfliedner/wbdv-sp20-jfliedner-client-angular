@@ -11,8 +11,9 @@
     <div class="col-sm-12">
       <ul *ngFor="let course of courses">
         <div class="row">
-          <li class="list-group-item course-row">
-            <a class="c-name link" href="/course/{{course._id}}">{{course.title}}</a>
+          <li class="list-group-item course-row class">
+              <a class="c-name link" href="/course/{{course._id}}">{{course.title}}</a>
+              <a class="q-name link" href="/courses/{{course._id}}/quizzes">Quizzes</a>
           </li>
         </div>
       </ul>
